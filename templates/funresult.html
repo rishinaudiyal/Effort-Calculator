@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="static/sat1.css">
+</head>
+
+<body>
+	<header class="fixed-header">
+		<div class="logo">
+			<img src="static/logo_sr.jpg" alt="Logo">
+		</div>
+		<div class="company-name">
+			SR Effort Calculator
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br>
+	<main>
+		<h2>Result:- </h2>
+		<h3>Given Input</h3>
+		<div class="inp_para">
+			<div class="inp">
+				<table border="1px solid black">
+					<tr>
+						<td>Software Complexity</td>
+						<td>{{com}}</td>
+					</tr>
+					<tr>
+						<td>Number of User Input</td>
+						<td>{{ufp_dic["U1"]}}</td>
+					</tr>
+					<tr>
+						<td>Number of User Output</td>
+						<td>{{ufp_dic["U2"]}}</td>
+					</tr>
+					<tr>
+						<td>Number of User Inquirie</td>
+						<td>{{ufp_dic["U3"]}}</td>
+					</tr>
+					<tr>
+						<td>Number of Internal Logical File</td>
+						<td>{{ufp_dic["U4"]}}</td>
+					</tr>
+					<tr>
+						<td>Number of External Interface File</td>
+						<td>{{ufp_dic["U5"]}}</td>
+					</tr>
+				</table>
+			</div>
+			<div class="para">
+				<table border="1px solid black">
+					<tr>
+						<th>Parameters</th>
+						<th>values</th>
+					</tr>
+					<tr>
+						<td>Unadjusted Function Points</td>
+						<td>{{UFP}}</td>
+					</tr>
+					<tr>
+						<td>Complexity Adjustment Factor</td>
+						<td>{{CAF}}</td>
+					</tr>
+					<tr>
+						<td>Functional Point</td>
+						<td>{{FP}}</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<h2><center>Effort Time = {{effort_time_FP}} {{"     "}}man-hours</center></h2>
+
+		<h1>
+			<center><a href="funresult2.html" class="button">Advance Result</a></center>
+		</h1>
+
+	</main>
+	<br><br><br><br>
+	<footer>
+		<div class="copyright">
+			&copy; SR_Effort_Calculator. All Rights Reserved.
+		</div>
+	</footer>
+
+</body>
+
+</html>

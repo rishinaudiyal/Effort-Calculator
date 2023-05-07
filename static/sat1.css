@@ -1,0 +1,284 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: aqua;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.fixed-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+  }
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+ 
+.company-name {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white ;
+  }
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	margin: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+}
+textarea {
+	width: 60%;
+	height: 60px;
+}
+button {
+	align-self: flex-end;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #555;
+}
+ 
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+footer p {
+	margin: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+	cursor: pointer;
+}
+.calculator h2 {
+    margin-left: 130px;
+}
+.index_img {
+	display: flex;
+}
+.img1 img {
+	width: 85%;
+	margin: 70px;
+}
+.button:hover {
+    background-color: #0069d9;
+}
+.classi {
+	display: flex;
+	flex-direction: row;
+}
+.classi li {
+	margin: 0 30px;
+}
+table th {
+	color: red;
+	font-size: large;
+}
+.inp_para {
+	display: flex;
+}
+.para {
+	margin-left: 20%;
+}
+.menuu {
+	width: 200px;
+}
+.dlu {
+	margin-left: 30px;
+}
+dd img {
+	position: relative;
+}
+.image-container {
+	display: flex;
+}
+  
+.image-container img {
+	display: inline-block;
+	margin-right: 50px;
+}
+.formula {
+	margin-left: 60px;
+}
+.tcf_Ecf table {
+    width: 400px;
+}
+.person {
+	margin-left:90% ;
+}
+.about {
+	display: flex;
+}
+.about_con {
+	display: inline-block;
+}
+.about img {
+	display: inline-block;
+	width: 80%;
+}
+.about2 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.about2 img {
+	width: 100px;
+	border-radius: 50%;
+	width: 100px;
+}
+.img_r img {
+	margin-left: 200px;
+}
+.img_s img {
+	margin-left: 150px;
+}
+.img_pdf{
+	display: flex;
+	margin-top: 5px;
+}
+.pdf_in {
+	height: 30px;
+	margin-bottom: 7px;
+	width: 50%;
+}
+.button1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+	width: 90px;
+	margin-left: 15%;
+	cursor: pointer;
+}
+
+.button2 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+	width: 90px;
+	margin-left: 15%;
+	cursor: pointer;
+}
+.pdf {
+	width: 50%;
+}
+.image {
+	width: 50%;
+    margin-left: 60px;
+}
+.button3 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+	width: 90px;
+	margin-left: 20%;
+	margin-top: 7px;
+	cursor: pointer;
+}
+.tec_env {
+	display: flex;
+}
+.environ {
+	margin-left: 20%;
+}
+.button4 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+	width: 90px;
+	margin-left: 45%;
+	margin-top: 7px;
+	cursor: pointer;
+}
+.tec_env td {
+	text-align: center;
+}
+.or_tcf{
+	max-width: fit-content;
+}
+.result_use {
+	display: flex;
+}
+.result_use table {
+	margin-left: 60px;
+
+}
+.result_use td {
+	text-align: center;
+
+}
+
+
+
+

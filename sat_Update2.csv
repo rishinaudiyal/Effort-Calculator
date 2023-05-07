@@ -1,0 +1,1002 @@
+sno,use_case,lable
+0,Authenticate, Simple
+1,Request new book, Simple
+2,Reserve a book, Simple
+3,Renew a book, Simple
+4,Pay fines, Simple
+5,Register new user, Average
+6,Add record, Average
+7,Delete book record, Average
+8,Update book record, Average
+9,Prepare library database, Complex
+10,Enroll for course, Simple
+11,Attend class, Simple
+12,Drop classes, Simple
+13,Add course, Average
+14,View course, Average
+15,Update course, Average
+16,Delete course, Average
+17,Add student, Average
+18,Add professor, Average
+19,Manage exam, Complex
+20,Create new customer, Simple
+21,Show customer information, Simple
+22,Open current account, Average
+23,Open saving account, Average
+24,Close saving account, Average
+25,Block customer account, Average
+26,Withdraw, Simple
+27,Deposit, Simple
+28,Transfer, Simple
+29,Show account information, Simple
+30,Search docs, Simple
+31,View events, Simple
+32,Upload docs, Average
+33,Post new event to homepage, Average
+34,Course information, Simple
+35,Manage requirements, Simple
+36,Manage registration, Simple
+37,Group member, Simple
+38,Supervisor, Simple
+39,Chat, Average
+40,Meeting timing, Average
+41,Evaluation, Average
+42,Student, Simple
+43,Edit profile, Simple
+44,Home service reservation, Average
+45,View history, Simple
+46,Add service option, Average
+47,View home service status, Simple
+48,Enter details for body, Average
+49,View information, Simple
+50,Make emergency call, Simple
+51,Make QNA, Average
+52,Add new titles, Average
+53,Manage publication, Average
+54,Manage titles, Average
+55,Create order, Average
+56,List stock levels, Simple
+57,Create a Netflix account, Simple
+58,Browse home page, Simple
+59,View movies, Simple
+60,Study user preferences, Complex
+61,Generate recommendation using implicit rating, Complex
+62,Recommend similar content, Complex
+63,Post content, Average
+64,Search for other users, Average
+65,Like/Comment on content, Average
+66,Personalize feed, Complex
+67,Generate insights on user behavior, Complex
+68,Browse products, Simple
+69,Track order, Average
+70,Personalize recommendations, Complex
+71,View account balance, Simple
+72,Transfer funds, Average
+73,Pay bills, Average
+74,Set up recurring payments, Average
+75,Analyze spending habits, Complex
+76,Check balances, Simple
+77,Offer sales, Average
+78,Manage sales, Average
+79,Manage design, Average
+80,Hide products, Average
+81,Customer message, Average
+82,Display product, Average
+83,Display sales and discounts, Average
+84,See products, Simple
+85,See sales and discounts, Simple
+86,Buy products, Average
+87,Draft a story, Average
+88,Review story, Average
+89,Suggest edit, Average
+90,Revise story, Average
+91,Sell story, Complex
+92,Package story, Complex
+93,Deliver story to consumers, Complex
+94,Order food, Average
+95,Reserve table, Average
+96,Confirm order, Average
+97,Send notification on order status, Complex
+98,Check the customer order, Average
+99,Add new item from menu, Average
+100,Delete item from food menu, Average
+101,Edit prices in food menu, Average
+102,Check transaction, Average
+103,View policy, Simple
+104,Dining, Average
+105,Order, Average
+106,Submit order, Average
+107,Process order, Average
+108,Table booking, Average
+109,Cancel booking, Average
+110,Check attendance, Simple
+111,Check timetable, Simple
+112,Check grades, Simple
+113,Update attendance, Average
+114,Update grades, Average
+115,View registered course, Simple
+116,Display course, Simple
+117,View course offering roster, Simple
+118,Select course to teach, Average
+119,Create new course, Complex
+120,Manage course, Average
+121,Student registration, Average
+122,Manage examination, Complex
+123,Manage question bank, Complex
+124,System login, Simple
+125,Test, Complex
+126,Reports, Complex
+127,Sign in/login, Simple
+128,Add item to shopping list, Simple
+129,Confirm shopping list, Simple
+130,Logout, Simple
+131,Reset password, Simple
+132,Assign task to team, Complex
+133,Task details, Simple
+134,Approve task, Complex
+135,Complete task, Simple
+136,Import and export data, Complex
+137,Manage team, Complex
+138,Transfer project and task, Complex
+139,Create member report, Complex
+140,Display bill, Simple
+141,Add product in cart, Simple
+142,Search product, Complex
+143,Manage cart, Simple
+144,Manage customer, Complex
+145,Add item in shopping list, Simple
+146,Login/logout, Simple
+147,Visit the patient, Simple
+148,Examine the patient, Simple
+149,Report the patient condition, Simple
+150,Discharge the patient, Simple
+151,Register, Simple
+152,Confirm the medical procedure, Simple
+153,Apply for discharge, Simple
+154,Login game play, Simple
+155,Choose subject and level, Simple
+156,View profile, Simple
+157,Upgrade account, Simple
+158,Book airline tickets, Average
+159,Deliver airline tickets, Simple
+160,Pay travel agent, Simple
+161,Arrange tour, Average
+162,Pay for tour, Simple
+163,Check status, Simple
+164,Room reservation, Complex
+165,Food booking, Complex
+166,Billing, Complex
+167,Generate report, Average
+168,Searching, Simple
+169,Visit homepage, Simple
+170,Book online, Complex
+171,Provide status, Simple
+172,Notify food, Simple
+173,Search for hotels, Complex
+174,View availability of rooms, Average
+175,View room type, Simple
+176,View discount, Simple
+177,Reserve room, Complex
+178,Make payment, Complex
+179,Update rooms availability, Complex
+180,Update room price, Complex
+181,Start application, Simple
+182,Load file, Simple
+183,Show ORF, Average
+184,Blast ORF, Complex
+185,Show started date, Simple
+186,Close application, Simple
+187,View items, Simple
+188,Make purchase, Complex
+189,Complete checkout, Complex
+190,Manage user, Average
+191,Handle message, Average
+192,Provide product, Simple
+193,Accept request, Simple
+194,View/update shopping cart, Average
+195,Remember me, Simple
+196,Calculate taxes and shipping, Average
+197,Customer authentication, Simple
+198,Check stock, Simple
+199,Cancel order, Simple
+200,Book a tour, Complex
+201,Check balance, Simple
+202,Update, Average
+203,Admission, Average
+204,Doctor appointment, Average
+205,Test appointment, Average
+206,Draw salary, Simple
+207,Bed allotment, Average
+208,Add doctor, Average
+209,Add staff, Average
+210,Remove doctor/staff, Average
+211,Renewal, Average
+212,Attendance, Average
+213,Take & Pass test, Complex
+214,Complete registration form, Average
+215,Evaluate grade, Simple
+216,Pay examination fees, Simple
+217,Medical checkup, Simple
+218,College/department info, Simple
+219,Submit requested documents, Simple
+220,Complete purchase, Complex
+221,Make reservation, Complex
+222,Place order, Complex
+223,Process payment, Complex
+224,Submit application, Complex
+225,Perform system backup, Complex
+226,Generate financial reports, Complex
+227,Manage inventory, Complex
+228,Issue refund, Complex
+229,Handle customer complaints, Complex
+230,Create project plan, Complex
+231,Conduct security audit, Complex
+232,Develop software, Complex
+233,View home page, Simple
+234,View product details, Simple
+235,View contact information, Simple
+236,View location information, Simple
+237,View hours of operation, Simple
+238,View menu, Simple
+239,View news articles, Simple
+240,View weather information, Simple
+241,View sports scores, Simple
+242,View movie times, Simple
+243,View photos, Simple
+244,View videos, Simple
+245,View FAQ, Simple
+246,View terms of service, Simple
+247,View privacy policy, Simple
+248,View customer reviews, Simple
+249,View store hours, Simple
+250,View shipping information, Simple
+251,View returns policy, Simple
+252,View warranty information, Simple
+253,View help desk, Simple
+254,View job postings, Simple
+255,View social media accounts, Simple
+256,View event calendar, Simple
+257,View blog posts, Simple
+258,View about us page, Simple
+259,View mission statement, Simple
+260,View team members, Simple
+261,View services offered, Simple
+262,View specials and promotions, Simple
+263,View inventory, Simple
+264,View purchase history, Simple
+265,View order confirmation, Simple
+266,View shipping confirmation, Simple
+267,View invoice, Simple
+268,View payment information, Simple
+269,View transaction history, Simple
+270,View rewards points, Simple
+271,View coupons, Simple
+272,View gift cards, Simple
+273,View account settings, Simple
+274,View notifications, Simple
+275,View alerts, Simple
+276,View messages, Simple
+277,View chat history, Simple
+278,Update user profile, Average
+279,Search for products, Average
+280,Book a hotel room, Average
+281,Create new task, Average
+282,Send email, Average
+283,View company calendar, Average
+284,Add contact, Average
+285,Create new folder, Average
+286,Manage email inbox, Average
+287,Set up automatic payments, Average
+288,Update billing information, Average
+289,Add to shopping cart, Average
+290,Check order status, Average
+291,Post a job opening, Average
+292,Upload file, Average
+293,Create new document, Average
+294,Change password, Average
+295,Share file/folder, Average
+296,Register for event, Average
+297,Request information, Average
+298,Change email preferences, Average
+299,Create slideshow, Average
+300,Send message, Average
+301,Browse website, Average
+302,Track expenses, Average
+303,Order supplies, Average
+304,Edit document, Average
+305,Create invoice, Average
+306,Search products, Average
+307,Update account information, Average
+308,Request customer support, Complex
+309,Cancel subscription, Simple
+310,Add to calendar, Simple
+311,Share content, Simple
+312,Leave product review, Average
+313,Follow social media account, Simple
+314,View customer service hours, Simple
+315,Redeem reward points, Simple
+316,Update payment information, Average
+317,Track package, Average
+318,Request refund, Average
+319,Manage email subscriptions, Average
+320,Update shipping address, Average
+321,Feedback, Simple
+322,Registration, Simple
+323,Login, Simple
+324,Add user, Average
+325,Payment gateway, Complex
+326,Payment, Complex
+327,Add product, Simple
+328,Delete product, Simple
+329,Activate product, Simple
+330,Edit product, Simple
+331,Take delivery batch, Average
+332,Deliver order, Average
+333,Receive payment, Complex
+334,Remove user, Simple
+335,Browse docs, Simple
+336,Create account, Simple
+337,Add to cart, Average
+338,Checkout, Average
+339,Deposit funds, Average
+340,Maintenance, Complex
+341,Repair, Average
+342,Travel agent commission, Average
+343,Reserve a seat, Simple
+344,Schedule appointment, Average
+345,Registering a new member, Simple
+346,Borrowing a book, Simple
+347,Return a book, Simple
+348,Search a book, Average
+349,Reserving a book, Simple
+350,Cheaking availability of a book, Simple
+351,Adding a new book, Average
+352,Remove a book, Average
+353,Managing overdue book, Average
+354,Generating report and statistics, Average
+355,Updating a member information, Simple
+356,Course Registration, Average
+357,Grade viewing, Average
+358,Payment processing, Complex
+359,Waitlist management, Complex
+360,Degree planning, Complex
+361,Student record management, Complex
+362,Course offering management, Complex
+363,Account management, Average
+364,Fund transfer, Average
+365,Bill payment, Average
+366,Loan Management, Complex
+367,Investment management, Complex
+368,Risk management, Complex
+369,Customer relationship management, Complex
+370,Search courses, Complex
+371,Manage waitlist, Complex
+372,Assign tasks, Average
+373,Set milestones, Average
+374,Monitor progress, Complex
+375,Manage resources, Complex
+376,Generate reports, Average
+377,Communicate with stakeholders, Average
+378,Search services, Complex
+379,Book services, Average
+380,Manage booking, Average
+381,Rate services, Simple
+382,Contact customer support, Simple
+383,Search books, Complex
+384,View book details, Simple
+385,Add book in cart, Average
+386,Remove book in cart, Simple
+387,Cheakout, Complex
+388,View order history, Simple
+389,Rate and review books, Simple
+390,Browse content, Simple
+391,Watch content, Simple
+392,Rate content, Simple
+393,Provide feedback, Simple
+394,Deposit cash, Simple
+395,Cheak account balance, Simple
+396,Search for friends , Simple
+397,Send friend requests , Simple
+398,Accept or reject friend requests , Simple
+399,Post content , Simple
+400,Like or dislike posts , Simple
+401,Comment on posts , Simple
+402,Share posts , Simple
+403,View content from friends , Simple
+404,Chat with friends , Average
+405,Join groups , Simple
+406,Create groups , Simple
+407,Leave groups , Simple
+408,Block users , Simple
+409,Report inappropriate content , Simple
+410,Create a profile , Simple
+411,Search for contacts , Simple
+412,Send a message , Simple
+413,Create a group , Simple
+414,Join a group , Simple
+415,Leave a group , Simple
+416,View group details , Simple
+417,Edit group settings , Simple
+418,Share media files , Simple
+419,Make voice calls , Average
+420,Make video calls , Average
+421,Block contacts , Simple
+422,Mute group or individual chats , Simple
+423,Archive chats , Simple
+424,Delete chats , Simple
+425,Create a timetable , Average
+426,Edit a timetable , Average
+427,View a timetable , Simple
+428,Share a timetable , Simple
+429,Print a timetable , Simple
+430,Assign teachers to classes , Average
+431,Assign classrooms to classes , Average
+432,Assign subjects to classes , Average
+433,Manage teacher availability , Average
+434,Manage classroom availability , Average
+435,Manage subject availability , Average
+436,View teacher schedules , Simple
+437,View classroom schedules , Simple
+438,View subject schedules , Simple
+439,Set system configurations , Simple
+440,Collect data on user behavior and mental health symptoms , Average
+441,Analyze user data to detect signs of depression , Complex
+442,Alert user or caregiver if signs of depression are detected , Simple
+443,Update user data , Simple
+444,View user history , Simple
+445,Answer frequently asked questions , Simple
+446,Provide customer support , Simple
+447,Schedule appointments , Simple
+448,Make reservations , Simple
+449,Process orders , Simple
+450,Assist with account management , Simple
+451,Provide personalized assistance , Average
+452,Update bot responses , Simple
+453,Analyze user interactions , Simple
+454,Manage student information , Average
+455,Manage teacher information , Average
+456,Manage classroom information , Average
+457,Manage course information , Average
+458,Manage attendance records , Average
+459,Manage grades and transcripts , Average
+460,Create and manage schedules , Average
+461,Register account , Simple
+462,Browse products , Simple
+463,Search products , Simple
+464,Add product to cart , Simple
+465,Remove product from cart , Simple
+466,Checkout , Average
+467,Make payment , Average
+468,Track order , Simple
+469,Leave feedback/rating , Simple
+470,Create a new story , Average
+471,Edit an existing story , Average
+472,Save a story as draft , Simple
+473,Publish a story , Simple
+474,Delete a story , Simple
+475,View published stories , Simple
+476,View unpublished stories , Simple
+477,Search stories , Simple
+478,Create order , Average
+479,Edit order , Average
+480,Add item to order , Simple
+481,Remove item from order , Simple
+482,View menu , Simple
+483,View order status , Simple
+484,Process payment , Average
+485,Add student , Simple
+486,Edit student details , Simple
+487,Delete student , Simple
+488,Enroll student in a course , Average
+489,Drop student from a course , Average
+490,View student information , Simple
+491,View course information , Simple
+492,Generate student report , Average
+493,Generate course report , Average
+494,Search for a student , Simple
+495,Search for a course , Simple
+496,Register a new patient , Simple
+497,Schedule an appointment , Average
+498,Update patient information , Simple
+499,View patient records , Simple
+500,Assign doctor/nurse to a patient , Simple
+501,View doctor/nurse schedule , Simple
+502,Manage medical inventory , Average
+503,Generate reports , Average
+504,Add a new employee , Simple
+505,Manage payroll , Average
+506,Manage billing , Average
+507,Manage insurance information , Simple
+508,Search for a product , Simple
+509,View product details , Simple
+510,Modify product quantity in cart , Simple
+511,Track order status , Simple
+512,Leave product review , Simple
+513,View order history , Simple
+514,View recommended products , Simple
+515,Create a new task , Simple
+516,Assign task to a user , Simple
+517,Set priority of a task , Simple
+518,Set due date of a task , Simple
+519,Mark a task as complete , Simple
+520,Reopen a completed task , Simple
+521,Edit task details , Simple
+522,Delete a task , Simple
+523,View all tasks , Simple
+524,Search for a task , Simple
+525,Search for available travel options , Simple
+526,View travel itinerary , Simple
+527,Book a travel ticket , Average
+528,Cancel a travel ticket , Average
+529,View booking history , Simple
+530,Set travel preferences , Simple
+531,Add travel insurance , Simple
+532,Generate travel reports , Average
+533,View travel alerts , Simple
+534,Choose a game , Simple
+535,Play a game , Simple
+536,Pause a game , Simple
+537,Resume a game , Simple
+538,Save game progress , Simple
+539,Display game instructions , Simple
+540,View high scores , Simple
+541,Unlock new levels , Simple
+542,Purchase additional features , Simple
+543,Generate progress report , Average
+544,Check room availability , Simple
+545,Make a reservation , Average
+546,Cancel a reservation , Average
+547,Check in a guest , Simple
+548,Check out a guest , Simple
+549,Manage room inventory , Average
+550,Manage room service , Average
+551,Manage housekeeping , Average
+552,Generate guest invoice , Average
+553,Generate occupancy report , Average
+554,Manage employee information , Average
+555,Manage accounting , Average
+556,Browse restaurants , Simple
+557,Search for a restaurant , Simple
+558,View restaurant details , Simple
+559,Place an order , Average
+560,Add item to cart , Simple
+561,Modify order , Simple
+562,Leave feedback , Simple
+563,View recommended restaurants , Simple
+564,Detect faces in an image , Simple
+565,Detect multiple faces in an image , Simple
+566,Identify individual faces , Average
+567,Verify face matches against known identities , Average
+568,Register a new identity , Average
+569,Update an existing identity , Average
+570,Remove an identity , Average
+571,View detection and identification logs , Simple
+572,Collect data on soil and weather conditions , Average
+573,Analyze soil and weather data , Average
+574,Recommend appropriate crops , Average
+575,Provide planting instructions , Simple
+576,Generate crop reports , Average
+577,Update crop data , Average
+578,View historical data , Simple
+579,Manage school resources , Average
+580,Communicate with parents , Simple
+581,Analyze student performance , Average
+582,Manage train schedules , Average
+583,Manage station information , Average
+584,Manage ticket sales , Average
+585,Process payments , Simple
+586,Manage seat reservations , Average
+587,Manage passenger information , Average
+588,Manage train delays and cancellations , Average
+589,Create and manage tickets , Average
+590,Assign tickets to agents , Average
+591,Track ticket status , Simple
+592,Communicate with customers , Simple
+593,Resolve tickets , Average
+594,Escalate tickets , Average
+595,Control home lighting , Simple
+596,Control home temperature , Simple
+597,Control home security , Average
+598,Control home appliances , Simple
+599,Manage home entertainment systems , Simple
+600,Manage home surveillance cameras , Average
+601,Manage energy consumption , Average
+602,Provide alerts for system status , Simple
+603,Analyze system usage , Average
+604,Manage inventory levels , Average
+605,Manage supplier information , Average
+606,Manage product information , Average
+607,Manage orders and shipments , Average
+608,Track product movement through the supply chain , Average
+609,Manage warehouse operations , Average
+610,Monitor traffic flow , Average
+611,Control traffic lights , Average
+612,Manage accidents and road closures , Average
+613,Manage road work , Average
+614,Analyze traffic patterns , Average
+615,Search for video content , Simple
+616,Stream video content , Average
+617,Manage user profiles , Simple
+618,Create playlists , Simple
+619,Allow user comments and ratings , Simple
+620,Allow content creators to upload videos , Average
+621,Manage subscriptions , Simple
+622,Analyze user behavior and preferences , Average
+623,Detect and recognize traffic signals , Complex
+624,Detect and avoid obstacles , Complex
+625,Monitor and analyze traffic patterns , Average
+626,Analyze weather and road conditions , Average
+627,Communicate with passengers , Simple
+628,Manage available parking spots , Simple
+629,Allocate parking spots to users , Simple
+630,Allow users to reserve parking spots , Simple
+631,Provide information on parking rates and payment options , Simple
+632,Manage parking violations and enforcement , Average
+633,Monitor network traffic , Average
+634,Manage network topology , Average
+635,Optimize network routing , Average
+636,Manage network security , Average
+637,Manage network access controls , Average
+638,Manage network performance , Average
+639,Analyze website content and structure , Average
+640,Conduct keyword research , Simple
+641,Optimize website content for search engines , Average
+642,Analyze website traffic and user behavior , Average
+643,Manage website backlinks , Average
+644,Provide recommendations for website improvements , Average
+645,Monitor network activity for suspicious behavior , Complex
+646,Identify and prevent network attacks , Complex
+647,Manage user access controls , Average
+648,Manage security configurations , Average
+649,Manage security alerts and notifications , Average
+650,Generate security reports , Average
+651,Conduct security audits , Average
+652,Receive order information from an order management system , Simple
+653,Retrieve product information and packaging requirements , Simple
+654,Select appropriate packaging materials and containers , Simple
+655,Apply labels and printing , Simple
+656,Fill containers with product , Simple
+657,Seal containers and apply protective materials , Simple
+658,Conduct quality control checks , Average
+659,Generate packaging and shipping reports , Simple
+660,Conduct mental health assessments , Average
+661,Manage patient information and records , Average
+662,Provide treatment recommendations , Average
+663,Manage patient appointments and scheduling , Average
+664,Monitor patient progress and outcomes , Average
+665,Provide teletherapy and virtual consultations , Average
+666,Provide medication management , Average
+667,Generate mental health reports , Average
+668,View schedule, Simple
+669,Drop course, Simple
+670,Create project, Average
+671,Register for course, Average
+672,Withdraw cash, Average
+673,Provide recommendations , Average
+674,Cancel order , Average
+675,Navigate to a destination , Average
+676,Send message, Average
+677,Chat, Average
+678,Search docs, Simple
+679,View mission statement, Simple
+680,Show started date, Simple
+681,Order food, Average
+682,Personalize recommendations, Complex
+683,Set travel preferences , Simple
+684,Test, Complex
+685,Add item in shopping list, Simple
+686,Register for course, Average
+687,Pay fines, Simple
+688,Confirm the medical procedure, Simple
+689,Withdraw, Simple
+690,Food booking, Complex
+691,Manage user profiles , Simple
+692,See products, Simple
+693,Loan Management, Complex
+694,Confirm order, Average
+695,Manage inventory, Complex
+696,Send email, Average
+697,Add staff, Average
+698,Checkout, Average
+699,View alerts, Simple
+700,Provide product, Simple
+701,Accept or reject friend requests , Simple
+702,Purchase additional features , Simple
+703,Book airline tickets, Average
+704,Analyze spending habits, Complex
+705,Update shipping address, Average
+706,Analyze website content and structure , Average
+707,Pay travel agent, Simple
+708,Test appointment, Average
+709,View event calendar, Simple
+710,Manage network access controls , Average
+711,Monitor and analyze traffic patterns , Average
+712,Register for event, Average
+713,View high scores , Simple
+714,Manage student information , Average
+715,Track order , Simple
+716,Collect data on user behavior and mental health symptoms , Average
+717,Detect and recognize traffic signals , Complex
+718,Search books, Complex
+719,Fill containers with product , Simple
+720,Alert user or caregiver if signs of depression are detected , Simple
+721,View product details , Simple
+722,Control traffic lights , Average
+723,Check stock, Simple
+724,Managing overdue book, Average
+725,Update, Average
+726,Search courses, Complex
+727,Provide information on parking rates and payment options , Simple
+728,Provide feedback, Simple
+729,Room reservation, Complex
+730,View history, Simple
+731,Add book in cart, Average
+732,Comment on posts , Simple
+733,Add professor, Average
+734,Resolve tickets , Average
+735,Manage patient information and records , Average
+736,View chat history, Simple
+737,Identify and prevent network attacks , Complex
+738,View profile, Simple
+739,View travel alerts , Simple
+740,Block customer account, Average
+741,Create a timetable , Average
+742,Post content, Average
+743,Manage publication, Average
+744,Complete registration form, Average
+745,Delete a task , Simple
+746,Add to cart, Average
+747,View terms of service, Simple
+748,Detect multiple faces in an image , Simple
+749,Course information, Simple
+750,View warranty information, Simple
+751,Close saving account, Average
+752,Share file/folder, Average
+753,Manage website backlinks , Average
+754,View order history , Simple
+755,View menu , Simple
+756,Create invoice, Average
+757,Apply for discharge, Simple
+758,Make voice calls , Average
+759,Update bot responses , Simple
+760,Analyze weather and road conditions , Average
+761,Book a hotel room, Average
+762,Choose subject and level, Simple
+763,View team members, Simple
+764,View detection and identification logs , Simple
+765,Print a timetable , Simple
+766,View movies, Simple
+767,Browse docs, Simple
+768,Chat with friends , Average
+769,Check order status, Average
+770,Delete student , Simple
+771,Manage attendance records , Average
+772,Set system configurations , Simple
+773,Manage customer, Complex
+774,View travel itinerary , Simple
+775,Student, Simple
+776,Authenticate, Simple
+777,Check balances, Simple
+778,Edit group settings , Simple
+779,Registering a new member, Simple
+780,Update book record, Average
+781,Add to shopping cart, Average
+782,Manage patient appointments and scheduling , Average
+783,Drop student from a course , Average
+784,Search products , Simple
+785,Upload file, Average
+786,Submit application, Complex
+787,Adding a new book, Average
+788,College/department info, Simple
+789,Optimize network routing , Average
+790,Repair, Average
+791,Post a job opening, Average
+792,Book a travel ticket , Average
+793,Mute group or individual chats , Simple
+794,Display bill, Simple
+795,Join groups , Simple
+796,Send a message , Simple
+797,Browse products , Simple
+798,Develop software, Complex
+799,Share a timetable , Simple
+800,Create and manage schedules , Average
+801,Discharge the patient, Simple
+802,Revise story, Average
+803,View purchase history, Simple
+804,Waitlist management, Complex
+805,Manage payroll , Average
+806,Make reservations , Simple
+807,View events, Simple
+808,Supervisor, Simple
+809,Return a book, Simple
+810,Manage security configurations , Average
+811,Display product, Average
+812,Update an existing identity , Average
+813,Reserve room, Complex
+814,Analyze user behavior and preferences , Average
+815,Pause a game , Simple
+816,Join a group , Simple
+817,Prepare library database, Complex
+818,Delete a story , Simple
+819,View subject schedules , Simple
+820,Update room price, Complex
+821,Add service option, Average
+822,View weather information, Simple
+823,Edit profile, Simple
+824,Create order , Average
+825,Leave groups , Simple
+826,View booking history , Simple
+827,Select appropriate packaging materials and containers , Simple
+828,Manage home entertainment systems , Simple
+829,Analyze user behavior and preferences , Average
+830,Schedule an appointment , Average
+831,Generate report, Average
+832,Search products , Simple
+833,Search for hotels, Complex
+834,Check transaction, Average
+835,Make purchase, Complex
+836,Order food, Average
+837,Suggest edit, Average
+838,Play a game , Simple
+839,Manage security configurations , Average
+840,Set up automatic payments, Average
+841,Fill containers with product , Simple
+842,Complete purchase, Complex
+843,Register new user, Average
+844,Assign teachers to classes , Average
+845,Generate student report , Average
+846,Control traffic lights , Average
+847,Update grades, Average
+848,Open current account, Average
+849,Send email, Average
+850,Set system configurations , Simple
+851,Generate travel reports , Average
+852,Set milestones, Average
+853,View a timetable , Simple
+854,Conduct security audits , Average
+855,Confirm order, Average
+856,Discharge the patient, Simple
+857,Set up recurring payments, Average
+858,Book a hotel room, Average
+859,View gift cards, Simple
+860,Evaluate grade, Simple
+861,Transfer project and task, Complex
+862,View services offered, Simple
+863,Task details, Simple
+864,Provide recommendations for website improvements , Average
+865,View blog posts, Simple
+866,Activate product, Simple
+867,Blast ORF, Complex
+868,Add item in shopping list, Simple
+869,Take & Pass test, Complex
+870,Edit group settings , Simple
+871,View invoice, Simple
+872,Authenticate, Simple
+873,College/department info, Simple
+874,Manage ticket sales , Average
+875,Billing, Complex
+876,Display bill, Simple
+877,Analyze soil and weather data , Average
+878,View menu , Simple
+879,Calculate taxes and shipping, Average
+880,Revise story, Average
+881,Cheak account balance, Simple
+882,Upload docs, Average
+883,Pay fines, Simple
+884,View home page, Simple
+885,Manage publication, Average
+886,Take delivery batch, Average
+887,Fund transfer, Average
+888,Cancel booking, Average
+889,Test, Complex
+890,Search for a student , Simple
+891,Complete checkout, Complex
+892,View notifications, Simple
+893,Add service option, Average
+894,View store hours, Simple
+895,Manage security configurations , Average
+896,Remove book in cart, Simple
+897,Search for other users, Average
+898,Generate packaging and shipping reports , Simple
+899,Delete a task , Simple
+900,Share file/folder, Average
+901,Visit homepage, Simple
+902,Enroll for course, Simple
+903,Search for friends , Simple
+904,Edit group settings , Simple
+905,Create a new story , Average
+906,Request new book, Simple
+907,Manage parking violations and enforcement , Average
+908,Order, Average
+909,Add professor, Average
+910,View recommended restaurants , Simple
+911,Recommend similar content, Complex
+912,Contact customer support, Simple
+913,Set due date of a task , Simple
+914,Generate recommendation using implicit rating, Complex
+915,Analyze system usage , Average
+916,View shipping confirmation, Simple
+917,Manage email inbox, Average
+918,Post new event to homepage, Average
+919,Save game progress , Simple
+920,Add doctor, Average
+921,Search for available travel options , Simple
+922,Food booking, Complex
+923,View purchase history, Simple
+924,View course information , Simple
+925,View policy, Simple
+926,Approve task, Complex
+927,Update bot responses , Simple
+928,Checkout, Average
+929,Delete a story , Simple
+930,Check balances, Simple
+931,Search products , Simple
+932,Book services, Average
+933,Delete student , Simple
+934,Place order, Complex
+935,Rate and review books, Simple
+936,Create and manage schedules , Average
+937,Conduct security audits , Average
+938,Manage patient information and records , Average
+939,Set up automatic payments, Average
+940,Travel agent commission, Average
+941,Generate recommendation using implicit rating, Complex
+942,Post a job opening, Average
+943,Search for other users, Average
+944,Remove book in cart, Simple
+945,View home page, Simple
+946,Calculate taxes and shipping, Average
+947,Browse home page, Simple
+948,Manage booking, Average
+949,Test, Complex
+950,Approve task, Complex
+951,Request refund, Average
+952,Remove an identity , Average
+953,Select course to teach, Average
+954,Analyze soil and weather data , Average
+955,Add item to order , Simple
+956,Like or dislike posts , Simple
+957,Track order, Average
+958,Confirm order, Average
+959,Create project, Average
+960,Customer authentication, Simple
+961,View customer reviews, Simple
+962,Drop student from a course , Average
+963,Control home security , Average
+964,View policy, Simple
+965,Create new folder, Average
+966,Identify and prevent network attacks , Complex
+967,Book a hotel room, Average
+968,Update account information, Average
+969,View published stories , Simple
+970,Manage titles, Average
+971,View policy, Simple
+972,Control home temperature , Simple
+973,Add user, Average
+974,Add to shopping cart, Average
+975,View event calendar, Simple
+976,View detection and identification logs , Simple
+977,Logout, Simple
+978,Analyze user behavior and preferences , Average
+979,Generate travel reports , Average
+980,Detect and recognize traffic signals , Complex
+981,Register for course, Average
+982,View user history , Simple
+983,View restaurant details , Simple
+984,Search services, Complex
+985,Manage cart, Simple
+986,Provide planting instructions , Simple
+987,Manage exam, Complex
+988,Manage requirements, Simple
+989,Communicate with parents , Simple
+990,Provide recommendations , Average
+991,Add item in shopping list, Simple
+992,Manage warehouse operations , Average
+993,Manage network topology , Average
+994,See sales and discounts, Simple
+995,Optimize network routing , Average
+996,Take & Pass test, Complex
+997,Cancel booking, Average
+998,Login game play, Simple
+999,Rate content, Simple
+1000,Payment gateway, Complex

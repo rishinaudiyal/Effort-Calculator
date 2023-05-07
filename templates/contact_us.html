@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact-us</title>
+	<link rel="stylesheet" type="text/css" href="static/sat1.css">
+	<link rel="stylesheet" type="text/css" href="static/contact.css">
+</head>
+
+<body>
+	<header class="fixed-header">
+		<div class="logo">
+			<img src="static/logo_sr.jpg" alt="Logo">
+		</div>
+		<div class="company-name">
+			SR Effort Calculator
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br>
+	<main>
+		<center>
+			<h2>Feedback</h2>
+		</center>
+		<div class="con_container">
+			<form action="/contact_us.html" method="POST">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<h3><center>{{message}}</center></h3>
+		<h2>Contact us-</h2>
+		<div class="my_con">
+			<div class="profile">
+				<img src="static/sat_profile.jpeg" alt="sat">
+			</div>
+			<div class="img_side">
+				<h2>Satish Maurya <br>&phone; 7891563762 <br>
+					<img class="email" src="static/email.png" alt="Email">
+					<div class="e_name">Satishreso888@gamil.com</div>
+				</h2>
+			</div>
+
+		</div>
+	</main>
+
+	<br><br><br><br>
+
+	<footer>
+		<div class="copyright">
+			&copy; SR_Effort_Calculator. All Rights Reserved.
+		</div>
+	</footer>
+</body>
+
+</html>

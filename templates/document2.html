@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>document2</title>
+	<link rel="stylesheet" type="text/css" href="static/sat1.css">
+</head>
+
+<body>
+	<header class="fixed-header">
+		<div class="logo">
+			<img src="static/logo_sr.jpg" alt="Logo">
+		</div>
+		<div class="company-name">
+			SR Effort Calculator
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br>
+	<main>
+		<div class="calculator">
+			<h2>
+				<center><a href="functional.html " class="button">Calculate Effort</a></center>
+			</h2>
+		</div>
+		<div class="doc">
+			<dl>
+				<dt>
+					<h2>Functional Ponit Analysis:-</h2>
+				</dt>
+				<dd>
+					<p>
+						Functional Points Analysis (FPA) is a software engineering technique used to estimate the size
+						and complexity of software development projects based on the business requirements of the
+						software. It provides a standardized method for measuring software functionality based on
+						function points. Function points are calculated based on the number of inputs, outputs,
+						inquiries, internal files, and external interfaces provided by the software application, and
+						each element is assigned a weight based on its complexity. FPA is used to estimate effort, track
+						progress, and identify areas for improvement during the development process.
+					</p>
+					<h3>
+						<center>FP = UFP * CAF</center>
+					</h3>
+					<ul>
+						<li>FP : Functional Point</li>
+						<li>UFP : Unadjusted Function Points</li>
+						<li>CAF : Complexity Adjustment Factor</li>
+					</ul>
+				</dd>
+				<dt>
+					<h2>Unadjusted Function Points:-</h2>
+				</dt>
+				<dd>
+					<p>
+						Unadjusted Function Points (UFP) is a measure of the functionality provided by a software
+						application, calculated using the Functional Points Analysis (FPA) technique. It is based on the
+						number of inputs, outputs, inquiries, internal files, and external interfaces provided by the
+						application, with each element assigned a weight based on its complexity. The UFP is calculated
+						by adding up the function points for each element, providing a measure of the size and
+						complexity of the software application. The UFP is used in conjunction with the Complexity
+						Adjustment Factor (CAF) to estimate the effort required to develop and maintain the software.
+					</p>
+					<ul>
+						<dl>
+							<li>
+								<dt>
+									<h3>External Input</h3>
+								</dt>
+								<dd>
+									<p>
+										An external input is a user data or control information that enters the
+										application from outside. Examples of external inputs include user data entry,
+										file uploads, and sensor data. In FPA, each external input is assigned a weight
+										based on its complexity, and the total number of external inputs is used to
+										calculate the unadjusted function points, which can be used to estimate the
+										effort required to develop and maintain the software application.
+									</p>
+								</dd>
+							</li>
+							<li>
+								<dt>
+									<h3>External Outputs</h3>
+								</dt>
+								<dd>
+									<p>An external output is data or control information that leaves the application to
+										the outside. Examples of external outputs include reports, file downloads, and
+										alerts. In FPA, each external output is assigned a weight based on its
+										complexity, and the total number of external outputs is used to calculate the
+										unadjusted function points.</p>
+								</dd>
+							</li>
+							<li>
+								<dt>
+									<h3>External Inquirie</h3>
+								</dt>
+								<dd>
+									<p>
+										An external inquiry is an input and output combination where the user requests
+										information from the application. Examples of external inquiries include search
+										queries and request for details. In FPA, each external inquiry is assigned a
+										weight based on its complexity, and the total number of external inquiries is
+										used to calculate the unadjusted function points.
+									</p>
+								</dd>
+							</li>
+							<li>
+								<dt>
+									<h3>Internal Logical Files </h3>
+								</dt>
+								<dd>
+									<p>
+										An internal logical file is data or control information that the application
+										stores internally. Examples of ILFs include customer records and order details.
+										In FPA, each ILF is assigned a weight based on its complexity, and the total
+										number of ILFs is used to calculate the unadjusted function points.
+									</p>
+								</dd>
+							</li>
+							<li>
+								<dt>
+									<h3>External Interface Files</h3>
+								</dt>
+								<dd>
+									<p>
+										An external interface file is data or control information that is shared between
+										applications. Examples of EIFs include data files that are exchanged between
+										systems. In FPA, each EIF is assigned a weight based on its complexity, and the
+										total number of EIFs is used to calculate the unadjusted function points.
+
+									</p>
+								</dd>
+							</li>
+						</dl>
+					</ul>
+					<center>
+						<table border="2px solide black" >
+							<tr>
+								<th>Functional Unit</th>
+								<th>Low</th>
+								<th>Average</th>
+								<th>High</th>
+							</tr>
+							<tr>
+								<td>External Input</td>
+								<td>3</td>
+								<td>4</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>External Output</td>
+								<td>4</td>
+								<td>5</td>
+								<td>7</td>
+							</tr>
+							<tr>
+								<td>External Inquiries</td>
+								<td>3</td>
+								<td>4</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>Internal Logical Files</td>
+								<td>7</td>
+								<td>10</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>External Interface Files</td>
+								<td>5</td>
+								<td>7</td>
+								<td>10</td>
+							</tr>
+						</table>
+					</center>
+				</dd>
+				<dt>
+					<h2>Complexity Adjustment Factor</h2>
+				</dt>
+				<dd>
+					<p>
+						The complexity adjustment factor (CAF) is a multiplier that is applied to the unadjusted
+						function points to account for the complexity of the software application. The CAF is calculated
+						based on a set of 14 general system characteristics, such as performance requirements, ease of
+						use, and security. Each characteristic is assigned a weight, and the total weight of all 14
+						characteristics is used to calculate the CAF.
+					</p>
+					<h4>The 14 characteristic are mention below-</h4>
+					<ul>
+						<li>Does the system require reliable backup and recovery?</li>
+						<li>Are data communications required?</li>
+						<li>Are there distributed processing functions?</li>
+						<li>Is performance critical?</li>
+						<li>Will the system run in an existing, heavily utilized operational environment?</li>
+						<li>Does the system require on-line data entry?</li>
+						<li>Does the on-line data entry require the input transaction to be built over multiple screens
+							or operations?</li>
+						<li>Are the master files updated on-line?</li>
+						<li>Are the inputs, outputs, files, or inquiries complex?</li>
+						<li>Is the internal processing complex?</li>
+						<li>Is the code designed to be reusable?</li>
+						<li>Are conversion and installation included in the design?</li>
+						<li>Is the system designed for multiple installations in different organizations?</li>
+						<li>Is the application designed to facilitate change and ease of use by the user?</li>
+					</ul>
+					<h4>Note:- We are Scale all characteristic which is above mention 0-5.</h4>
+					<ul>
+						<li>0- No Influence</li>
+						<li>1- Incidental</li>
+						<li>2- Moderate</li>
+						<li>3- Average</li>
+						<li>4- Significant</li>
+						<li>5- Essential</li>
+					</ul>
+					<center>
+						<h3>CAF = 0.65 + (0.01 * F)</h3>
+					</center>
+					<ul>
+						<li>F = Σ Characteristic * Scale</li>
+					</ul>
+				</dd>
+				<dt>
+					<h2>Productivity Factor</h2>
+				</dt>
+				<dd>
+					<p>The productivity factor is a measure of the amount of effort required per function point for a
+						specific software development team. It represents the team's productivity level and is
+						influenced by various factors such as experience, complexity of the project, tools and
+						technologies used, and development methodology. It is usually calculated by analyzing historical
+						data from similar projects to determine the average effort required per function point. The
+						value of the productivity factor can vary widely depending on these factors and can range from
+						10 to 25 hours per function point for a typical software development team.
+					</p>
+					<ul>
+						<li>Team Level    : PF</li>
+						<li>Expert Team   : 10-15</li>
+						<li>Average Team  : 16-20</li>
+						<li>Beginner Team : 20-25</li>
+					</ul>
+
+				</dd>
+			</dl>
+			<h2><center>Effort Time = FP * PF (man hours)</center></h2>
+		</div>
+
+	</main>
+	<br><br><br><br>
+	<footer>
+		<div class="copyright">
+			&copy; SR_Effort_Calculator. All Rights Reserved.
+		</div>
+	</footer>
+
+</body>
+
+</html>

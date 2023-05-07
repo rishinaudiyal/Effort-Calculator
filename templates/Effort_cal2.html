@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Actor->Use-Case</title>
+	<link rel="stylesheet" type="text/css" href="static/sat1.css">
+</head>
+
+<body>
+	<header class="fixed-header">
+		<div class="logo">
+			<img src="static/logo_sr.jpg" alt="Logo">
+		</div>
+		<div class="company-name">
+			SR Effort Calculator
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br>
+	<main>
+		<h2>Select use case to connected Actors:</h2>
+		<form action="/Effort_cal2.html" method="POST">
+			<div class="fome">
+				{% for actor in actors %}
+				<table>
+					<div class="usecase">
+						<tr>
+							<td>
+								<table>
+									<tr>
+										<td>
+											<h3>{{actor}}</h3>
+										</td>
+									</tr>
+						            <tr>
+							        {% for use_case in use_cases %}
+							        <td>{{ use_case }}</td>
+							        <td><input type="checkbox" name="{{actor}}" value="{{actor+'#'+use_case}}"></td>
+						            </tr>
+						            {% endfor %}
+				                </table>
+				            </td>
+				        {% endfor %}
+				        </tr>
+					</div>
+				</table>
+			</div>
+			<input type="submit" value="Submit" class="button3">
+		</form>
+
+	</main>
+	<br><br><br><br>
+	<footer>
+		<div class="copyright">
+			&copy; SR_Effort_Calculator. All Rights Reserved.
+		</div>
+	</footer>
+
+</body>
+
+</html>

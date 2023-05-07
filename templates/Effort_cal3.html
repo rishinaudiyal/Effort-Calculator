@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TCF-ECF</title>
+	<link rel="stylesheet" type="text/css" href="static/sat1.css">
+</head>
+
+<body>
+	<header class="fixed-header">
+		<div class="logo">
+			<img src="static/logo_sr.jpg" alt="Logo">
+		</div>
+		<div class="company-name">
+			SR Effort Calculator
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br>
+	<main class="e3">
+		<h2>
+			<center>Scale you application technical factor and Environmental factor 1 to 5, where 1-lowest and 5-highest
+			</center>
+		</h2>
+		<div class="tec_env">
+			<div class="techni">
+				<form action="/Effort_cal3.html" method="post">
+					<table>
+						<tr>
+							<th>Technical Factor</th>
+							<th>Description</th>
+							<th>Scale</th>
+						</tr>
+						<tr>
+							<td>T1</td>
+							<td>Distributed System</td>
+							<td><input type="text" name="T1"></td>
+						</tr>
+						<tr>
+							<td>T2</td>
+							<td>Response Time/Performance </td>
+							<td><input type="text" name="T2"></td>
+						</tr>
+						<tr>
+							<td>T3</td>
+							<td>End-user efficiency</td>
+							<td><input type="text" name="T3"></td>
+						</tr>
+						<tr>
+							<td>T4</td>
+							<td>Internal processing complexity</td>
+							<td><input type="text" name="T4"></td>
+						</tr>
+						<tr>
+							<td>T5</td>
+							<td>Code reusability</td>
+							<td><input type="text" name="T5"></td>
+						</tr>
+						<tr>
+							<td>T6</td>
+							<td>Easy to install</td>
+							<td><input type="text" name="T6"></td>
+						</tr>
+						<tr>
+							<td>T7</td>
+							<td>Easy to use</td>
+							<td><input type="text" name="T7"></td>
+						</tr>
+						<tr>
+							<td>T8</td>
+							<td>Portability to other platforms</td>
+							<td><input type="text" name="T8"></td>
+						</tr>
+						<tr>
+							<td>T9</td>
+							<td>System maintenance</td>
+							<td><input type="text" name="T9"></td>
+						</tr>
+						<tr>
+							<td>T10</td>
+							<td>Concurrent/parallel processing</td>
+							<td><input type="text" name="T10"></td>
+						</tr>
+						<tr>
+							<td>T11</td>
+							<td>Security features</td>
+							<td><input type="text" name="T11"></td>
+						</tr>
+						<tr>
+							<td>T12</td>
+							<td>Access for third parties</td>
+							<td><input type="text" name="T12"></td>
+						</tr>
+						<tr>
+							<td>T13</td>
+							<td>End user training</td>
+							<td><input type="text" name="T13"></td>
+						</tr>
+					</table>
+			</div>
+			<div class="environ">
+				<table>
+					<tr>
+						<th>Environmental Factor</th>
+						<th>Description</th>
+						<th>Scale</th>
+					</tr>
+					<tr>
+						<td>E1</td>
+						<td>Familiarity with development process used </td>
+						<td><input type="text" name="E1"></td>
+					</tr>
+					<tr>
+						<td>E2</td>
+						<td>Application experience</td>
+						<td><input type="text" name="E2"></td>
+					</tr>
+					<tr>
+						<td>E3</td>
+						<td>Object-oriented experience of team</td>
+						<td><input type="text" name="E3"></td>
+					</tr>
+					<tr>
+						<td>E4</td>
+						<td>Lead analyst capability</td>
+						<td><input type="text" name="E4"></td>
+					</tr>
+					<tr>
+						<td>E5</td>
+						<td>Motivation of the team</td>
+						<td><input type="text" name="E5"></td>
+					</tr>
+					<tr>
+						<td>E6</td>
+						<td>Stability of requirements</td>
+						<td><input type="text" name="E6"></td>
+					</tr>
+					<tr>
+						<td>E7</td>
+						<td>Part-time staff</td>
+						<td><input type="text" name="E7"></td>
+					</tr>
+					<tr>
+						<td>E8</td>
+						<td>Difficult programming language</td>
+						<td><input type="text" name="E8"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<input type="submit" value="Submit1" class="button4" name="submit1">
+		</form>
+		<div class="or_tcf">
+          <h2>Or,if you are not scale individual then scale 1-5 our application Techically and Environmentally: </h2>
+          <form action="/Effort_cal3.html" method="post">
+			<div class="Ushort">
+			<table>
+				<tr>
+					<td>Factor</td>
+					<td>Scale</td>
+				</tr>
+				<tr>
+					<td>Technical</td>
+					<td><input type="text" name="techt"></td>
+				</tr>
+				<tr>
+					<td>Environmental</td>
+					<td><input type="text" name="envt"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Submit" class="button3"></td>
+				</tr>
+			</table>
+		</div>
+
+		  </form>
+		</div>
+
+	</main>
+	<br><br><br><br>
+	<footer>
+		<div class="copyright">
+			&copy; SR_Effort_Calculator. All Rights Reserved.
+		</div>
+	</footer>
+
+</body>
+
+</html>

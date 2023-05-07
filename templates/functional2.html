@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>functional-cal2</title>
+    <link rel="stylesheet" type="text/css" href="static/sat1.css">
+</head>
+
+<body>
+    <header class="fixed-header">
+        <div class="logo">
+            <img src="static/logo_sr.jpg" alt="Logo">
+        </div>
+        <div class="company-name">
+            SR Effort Calculator
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br><br>
+    <main>
+        <h2>Scale all characteristic 0-5</h2>
+        <ul class="classi">
+            <li>0- No Influence</li>
+            <li>1- Incidental</li>
+            <li>2- Moderate</li>
+            <li>3- Average</li>
+            <li>4- Significant</li>
+            <li>5- Essential</li>
+        </ul>
+        <form action="functional2.html" method="post">
+            <h4>
+            <table>
+                <tr><th>Factor</th>
+                        <th>Characteristic</th>
+                        <th>Scale</th>
+                </tr>
+                
+                    <tr>
+                        <td>F1</td>
+                        <td> Does The system require reliable backup and recovery</td>
+                        <td><input type="text" name="F1"></td>
+                    </tr>
+                    <tr>
+                        <td>F2</td>
+                        <td> Are data communications required</td>
+                        <td><input type="text" name="F2"></td>
+                    </tr>
+                    <tr>
+                        <td>F3</td>
+                        <td> Are there distributed processing functions</td>
+                        <td><input type="text" name="F3"></td>
+                    </tr>
+                    <tr>
+                        <td>F4</td>
+                        <td> Is performance critical</td>
+                        <td><input type="text" name="F4"></td>
+                    </tr>
+                    <tr>
+                        <td>F5</td>
+                        <td> Will the system run in an existing, heavily utilized operational environment</td>
+                        <td><input type="text" name="F5"></td>
+                    </tr>
+                    <tr>
+                        <td>F6</td>
+                        <td> the system require on-line data entry</td>
+                        <td><input type="text" name="F6"></td>
+                    </tr>
+                    <tr>
+                        <td>F7</td>
+                        <td>Does the on-line data entry require the input transaction to be built over multiple screens
+                            or operations</td>
+                        <td><input type="text" name="F7"></td>
+                    </tr>
+                    <tr>
+                        <td>F8</td>
+                        <td> Are the master files updated on-line</td>
+                        <td><input type="text" name="F8"></td>
+                    </tr>
+                    <tr>
+                        <td>F9</td>
+                        <td> Are the inputs, outputs, files, or inquiries complex</td>
+                        <td><input type="text" name="F9"></td>
+                    </tr>
+                    <tr>
+                        <td>F10</td>
+                        <td> Is the internal processing complex</td>
+                        <td><input type="text" name="F10"></td>
+                    </tr>
+                    <tr>
+                        <td>F11</td>
+                        <td> Is the code designed to be reusable</td>
+                        <td><input type="text" name="F11"></td>
+                    </tr>
+                    <tr>
+                        <td>F12</td>
+                        <td> Are conversion and installation included in the design</td>
+                        <td><input type="text" name="F12"></td>
+                    </tr>
+                    <tr>
+                        <td>F13</td>
+                        <td> Is the system designed for multiple installations in different organizations</td>
+                        <td><input type="text" name="F13"></td>
+                    </tr>
+                    <tr>
+                        <td>F14</td>
+                        <td> Is the application designed to facilitate change and ease of use by the user</td>
+                        <td><input type="text" name="F14"></td>
+                    </tr>
+            </table>
+            </h4>
+            <h1><center>OR</center></h1>
+            <h2>Only Select one option for Your software</h2>
+            <select name="Rate" class="menuu">
+            <option value="0">No Influence</option>
+            <option value="1">Incidental</option>
+            <option value="2">Moderate</option>
+            <option value="3">Average</option>
+            <option value="4">Significant</option>
+            <option value="5">Essential</option>
+
+            <input type="submit" value="Submit" class="button3">
+            </h4>
+        </form>
+
+    </main>
+    <br><br><br><br>
+    <footer>
+        <div class="copyright">
+            &copy; SR_Effort_Calculator. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>

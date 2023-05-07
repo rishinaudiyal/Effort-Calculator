@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="static/sat1.css">
+</head>
+
+<body>
+	<header class="fixed-header">
+		<div class="logo">
+			<img src="static/logo_sr.jpg" alt="Logo">
+		</div>
+		<div class="company-name">
+			SR Effort Calculator
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br>
+	<main>
+		<h2>
+			<center>Use Case Diagram Information and Result</center>
+		</h2>
+		<h4>
+			<div class="result_use">
+				<table cellspacing="0 20px" border="1px solid black">
+					<tr>
+						<th>Actor</th>
+						<th>Complexity</th>
+					</tr>
+					{% for i in actor %}
+					<tr>
+						<td>{{i}}</td>
+						<td>{{actor[i]}}</td>
+					</tr>
+					{% endfor %}
+				</table>
+				<table cellspacing="0 20px" border="1px solid black">
+					<tr>
+						<th>Use_Case</th>
+						<th>Complexity</th>
+					</tr>
+					{% for i in use_case %}
+					<tr>
+						<td>{{i}}</td>
+						<td>{{use_case[i]}}</td>
+					</tr>
+					{% endfor %}
+				</table>
+				<table cellspacing="0 20px" border="1px solid black">
+					<tr>
+						<th>Calculated Parameter</th>
+						<th>Values</th>
+					</tr>
+					<tr>
+						<td>UUCW</td>
+						<td>{{UUCW}}</td>
+					</tr>
+					<tr>
+						<td>UAW</td>
+						<td>{{UAW}}</td>
+					</tr>
+					<tr>
+						<td>TCF</td>
+						<td>{{TCF}}</td>
+					</tr>
+					<tr>
+						<td>ECF</td>
+						<td>{{ECF}}</td>
+					</tr>
+				</table>
+			</div>
+		</h4>
+		<br><br>
+		<center>
+			<h3>UCP = {{UCP}}</h3>
+		</center>
+		<center>
+			<h2>Total Hours = {{hours}}</h2>
+		</center>
+		<h1>
+			<center><a href="result1.html" class="button">Advance Result</a></center>
+		</h1>
+	</main>
+	<br><br><br><br>
+	<footer>
+		<div class="copyright">
+			&copy; SR_Effort_Calculator. All Rights Reserved.
+		</div>
+	</footer>
+
+</body>
+
+</html>

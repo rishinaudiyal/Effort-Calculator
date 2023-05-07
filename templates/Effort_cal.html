@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Use-Case-diagram</title>
+	<link rel="stylesheet" type="text/css" href="static/sat1.css">
+</head>
+
+<body>
+	<header class="fixed-header">
+		<div class="logo">
+			<img src="static/logo_sr.jpg" alt="Logo">
+		</div>
+		<div class="company-name">
+			SR Effort Calculator
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br>
+	<main>
+		<h1>
+			<center> <u> Select Your Input Method </u></center>
+		</h1>
+		<div class="img_pdf">
+			<div class="pdf">
+				<h2>Method 1:- In pdf</h2>
+				<form action="" method="post">
+					<label for="pdf"> Upload your pdf </label>
+					<input class="pdf_in" type="text" name="pdf" value="Choose pdf">
+					<input class="button1" type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="image">
+				<h2>Method 2:- In Image</h2>
+				<form action="" method="post">
+					<label for="imag"> Upload your image </label>
+					<input class="pdf_in" type="text" name="imag" value="Choose Image">
+					<input class="button2" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+		<br>
+			<h2>Method 3:- Manually</h2>
+			<div class="manual">
+				<form action="/Effort_cal.html" method="post">
+					<label for="use_case">Use Cases</label>
+					<textarea id="use_cases" name="use_case" value="Enter all Use Cases"></textarea>
+					<label for="use_case">Actors</label>
+					<textarea id="actors" name="actor" value="Enter all Actors"></textarea>
+					<input class="button3" type="submit" value="Submit">
+				</form>
+			</div>
+
+	</main>
+
+
+
+   <br><br><br><br>
+
+	<footer>
+		<div class="copyright">
+			&copy; SR_Effort_Calculator. All Rights Reserved.
+		</div>
+	</footer>
+</body>
+
+</html>
